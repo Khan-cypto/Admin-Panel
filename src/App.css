@@ -1,0 +1,42 @@
+a{
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(79, 79, 79);
+}
+.meter{
+  background: url(./meter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: end;
+}
+
+.arrowimg{
+  width: 40% !important;
+  top: 100px;
+  position: absolute;
+}
+.chip:hover{
+  background-color: green !important;
+  color: white;
+}
+@media only screen and (max-width:450px){
+  .options-con{
+    margin: 0px !important;
+    box-shadow: none !important;
+  }
+}
